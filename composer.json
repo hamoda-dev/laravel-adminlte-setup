@@ -8,7 +8,7 @@
             "email": "hamoda.dev@gmail.com"
         }
     ],
-    "minimum-stability": "1.0",
+    "minimum-stability": "alpha",
     "autoload": {
         "psr-4": {
             "LaravelSetupAdmin\\Providers\\": "src/Providers",
