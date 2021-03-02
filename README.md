@@ -11,4 +11,7 @@ This package provides an easy way to quickly setup AdminLTE v3 with Laravel 5 or
 
 You are ready now build something amezing
 
-to test just make route point to dashboard.index view
+to test just make route point to `dashboard.index` view
+
+
+Enjoy :)
