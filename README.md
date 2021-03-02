@@ -4,7 +4,7 @@ This package provides an easy way to quickly setup AdminLTE v3 with Laravel 5 or
 ## Installation
 
 ### run via composer
-`composer require hamoda-dev/laravel-adminlte-setup`
+`composer require hamoda-dev/laravel-adminlte-setup --dev`
 
 ### run this command
 `php artisan adminlte:install`
