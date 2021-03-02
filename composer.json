@@ -1,0 +1,26 @@
+{
+    "name": "hamoda-dev/laravel-adminlte-setup",
+    "type": "library",
+    "description": "Laravel AdminLTE Setup Blade Files RTL,LTR",
+    "authors": [
+        {
+            "name": "Mohammed Hamid Hamoda",
+            "email": "hamoda.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "1.0",
+    "autoload": {
+        "psr-4": {
+            "LaravelSetupAdmin\\Providers\\": "src/Providers",
+            "LaravelSetupAdmin\\Commands\\": "src/Commands"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelSetupAdmin\\Providers\\LaravelSetupAdminProvider",
+                "LaravelSetupAdmin\\Providers\\InstallerProvider"
+            ]
+        }
+    }
+}
