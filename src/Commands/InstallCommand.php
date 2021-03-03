@@ -43,8 +43,6 @@ class InstallCommand extends Command
             echo "I can't copy my resources, pleas rename or delete folder in public or views named dashboard" . PHP_EOL;
             die();
         } else {
-            echo shell_exec("figlet 'You Are Ready'");
-
             $installerProvider = InstallerProvider::class;
             echo shell_exec('php artisan vendor:publish --provider="' . $installerProvider . '"');
         }
